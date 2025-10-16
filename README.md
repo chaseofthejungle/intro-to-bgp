@@ -34,3 +34,7 @@
 <hr />
 
 ## 6. <a name="supplemental">Supplemental Resources</a>
+
+* *[Official National Telecommunications and Information Administration Webpage on BGP Security](https://www.ntia.gov/programs-and-initiatives/border-gateway-protocol)*
+* *[Official Microsoft Webpage on BGP Support in Microsoft Azure](https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-bgp-overview)*
+* *[Official AWS Webpage on BGP Integration](https://docs.aws.amazon.com/directconnect/latest/UserGuide/routing-and-bgp.html)*
