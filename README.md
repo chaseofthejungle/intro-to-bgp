@@ -40,7 +40,14 @@ A core functionality of BGP routers is to determine the most optimal network tra
 * *LOCAL_PREF:* Informs routers of the outbound/exit paths that should be chosen for routing.
 * *AS_PATH:* Instructs routers to prioritize the shortest paths (the ones with the least amount of AS hops listed in the routes), which can help prevent routing loops.
 * *NEXT_HOP:* Provides the IP address of the next (reachable) router that is to receive traffic.
-  
+
+**BGP attributes are also grouped into four categories:**
+
+* *Well-Known Mandatory (e.g., AS_PATH, NEXT_HOP, ORIGIN):* These attributes have to be recognized by every BGP implementation and need to be included in all BGP update messages.
+* *Well-Known Discretionary (e.g., Weight, LOCAL_PREF):* These attributes are recognized by all BGP routers and included in processing, yet are not necessarily included in all update messages.  
+* *Optional Transitive:* While it is not a certainty that routers will recognize these attributes, they will be passed along to other BGP routers for sure. Even if a router is not configured to support a transitive attribute, it will still forward it.  
+* *Optional Non-Transitive:* It is not a certainity that routers will recognize these attributes. If they do not, then they will also not forward the attribute information to other BGP routers.
+
 <hr />
 
 ## 6. <a name="supplemental">Supplemental Resources</a>
