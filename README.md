@@ -1,6 +1,6 @@
 # Intro to Border Gateway Protocol (BGP) Overview Guide
 
-**TODO:** A brief introductory guide to Border Gateway Protocol.
+**Description/Overview:** Border Gateway Protocol (BGP) is the internet's common, standardized exterior gateway routing protocol. Routers rely on it to relay accessibility and routing information with various networks/autonomous systems (ASes), enabling traffic to discover optimal paths between source and target networks. Furthermore, when BGP is used to route for a single autonomous system, it serves as an interior border gateway protocol.
 
 #### Table of Contents
 
