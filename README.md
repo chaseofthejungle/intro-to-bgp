@@ -35,11 +35,13 @@ A core functionality of BGP routers is to determine the most optimal network tra
 
 **Examples of BGP attributes include:**
 
-* *Weight:* Informs configured routers which local paths are to have priority (note: this attribute is Cisco-proprietary).
-* *ORIGIN:* Instructs routers to select routes based on how they were added to BGP (e.g., IGP, EGP, INCOMPLETE).
-* *LOCAL_PREF:* Informs routers of the outbound/exit paths that should be chosen for routing.
-* *AS_PATH:* Instructs routers to prioritize the shortest paths (the ones with the least amount of AS hops listed in the routes), which can help prevent routing loops.
-* *NEXT_HOP:* Provides the IP address of the next (reachable) router that is to receive traffic.
+| Attribute | Explanation |
+| :---: | :---: |
+| *Weight* | Informs configured routers which local paths are to have priority (note: this attribute is Cisco-proprietary). |
+| *ORIGIN* | Instructs routers to select routes based on how they were added to BGP (e.g., IGP, EGP, INCOMPLETE). |
+| *LOCAL_PREF* | Informs routers of the outbound/exit paths that should be chosen for routing. |
+| *AS_PATH* | Instructs routers to prioritize the shortest paths (the ones with the least amount of AS hops listed in the routes), which can help prevent routing loops. |
+| *NEXT_HOP* | Provides the IP address of the next (reachable) router that is to receive traffic. |
 
 **BGP attributes are also grouped into four categories:**
 
